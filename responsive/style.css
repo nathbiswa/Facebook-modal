@@ -1,0 +1,26 @@
+
+@media (max-width:500px) {
+    .banner-content h2 {
+        font-size: 35px;
+    }
+    .banner-content p {
+        margin: 0 20px;
+    }
+    .modal-content {
+        width: 400px;
+        padding: 7px 25px;
+    }
+    .alert-content {
+        width: 377px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

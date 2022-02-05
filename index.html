@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modal with javaScript </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive/style.css">
+
+</head>
+
+<body>
+
+    <div class="banneer-wrap">
+        <div class="banner-content">
+            <h2> I love my Sir</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate animi excepturi quia quod
+                repellat est fugit sed, fuga saepe!</p>
+                <a href="#" id="apply"> Apply now</a>
+        </div>
+    </div>
+
+    <!-- Modal section -->
+
+    <div class="modal-wrap">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1> This is Header</h1>
+                <span class="close"><i class="fas fa-times"></i> </span>
+            </div>
+            <div class="modal-body">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nesciunt!</p>
+            </div>
+            <div class="modal-footer">
+                <h3>This is Footer</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal alert -->
+    <div class="alert-wrap">
+        <div class="alert-content">
+            <div class="alert-header">
+                <h2> Unsave Change </h2>
+                <button class="close">&times;</button>
+            </div>
+            <div class="alert-body">
+                <p>Change you made will not be saved</p>
+                <div class="btns">
+                    <a id="keep" href="#">Keep Edditing</a>
+                    <a id="discard" href="#">Discard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
